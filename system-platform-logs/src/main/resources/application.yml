@@ -1,0 +1,36 @@
+#es:
+#  hostname: "192.168.0.170"
+#  port: 30301
+#  scheme: "http"
+#spring:
+#  datasource:
+#    url: jdbc:mysql://192.168.0.170:3306/elco_zhuchi_system?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: toor
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  redis:
+#    host: 192.168.0.170
+#    port: 6379
+#    password: root123redis
+#  servlet:
+#    multipart:
+#      enabled: true
+#      max-file-size: 100MB
+#      max-request-size: 100MB
+#  feign:
+#    httpclient:
+#      enabled: false
+#    okhttp:
+#      enabled: true
+#ribbon:
+#  ConnectTimeout: 5000
+#  ReadTimeout: 10000
+#min:
+#  io:
+#    endpoint: 192.168.0.170
+#    port: 30200
+#    accessKey: minio12345
+#    secretKey: minio12345
+#    secure: false
+#swagger:
+#  title: 系统平台-日志中心微服务
